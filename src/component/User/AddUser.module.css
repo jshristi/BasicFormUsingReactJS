@@ -1,0 +1,36 @@
+.form {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  left: 0;
+  right: 0;
+  position: relative;
+  border-top: 5px solid #0e3721;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+.title{
+  display: block-flex;
+  font-family: sans-serif;
+  margin: 10px auto 5px;  
+  width: 500px; 
+  padding-bottom: 20px;
+}
+
+.input{
+  border:none;
+  border: 2px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  
+}
+.input:hover {
+  height: 30px;
+  width: 150px;
+  transition: ease 0.7s;
+}
